@@ -1,0 +1,4 @@
+Your data files are empty. I get a sense of what would have been in them.
+You created functions above to calculate Risk and Score, but then you didn't actually call them from your main business logic, instead choosing to implement dummy functions.
+Your Dyspnea normalization doesn't take into consideration the actual data in the file, so your functions would have initially thrown errors.
+You didn't actually call DocTest, but instead implemented unit tests. I haven't taught you unit tests...
